@@ -354,8 +354,8 @@ a:hover {
     
 }
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
+and (min-device-width : 767px) 
+and (max-device-width : 1090px)  {
     .feautured-item-text-container{
         font-size: 4vh;
         text-align: left;
