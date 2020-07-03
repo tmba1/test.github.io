@@ -1,0 +1,440 @@
+body{
+    overflow-x: hidden !important;
+}
+
+#logo:hover{
+    
+    transform:scale(1.2);
+    
+}
+#logo{
+    
+    
+    height: 10vh;
+    margin:auto;
+    transition-duration: 0.5s;
+    
+    
+}
+
+a {
+    text-decoration: none !important;
+   
+}
+a:hover {
+    text-decoration: none !important;
+   
+}
+
+
+.all-bar-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    left:5vw;
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+.menu-bar {
+    float: left;
+}
+.menu-bar-item {
+    display: block;
+    color: white !important;
+    font-weight: 700;
+    font-size: 3.1vh !important;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 2vh 3vw;
+    top: 50%;
+    text-decoration: none !important;
+}
+.menu-bar-item:hover{
+    color:white !important;
+    transform: scale(1.1);
+    text-decoration: none !important;
+}
+.search{
+    display: block;
+    color: white !important;
+    font-weight: 700;
+    text-align: center;
+    padding: 2vh 3vw;
+    float: right;
+    right    : 6vw;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-decoration: none ;
+}
+.hover {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+    padding-top:2vh;
+    border-radius: 5px;
+}
+.hover-trend {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+   
+    border-radius: 5px;
+}
+.hover-trend img {
+    border-radius: 5px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 100%;
+    height: auto;
+    
+    
+}
+.hover img {
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width:80%;
+  height:auto;
+}
+.hover-trend:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border-radius: 5px;
+    
+    
+    
+}
+.hover:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.trending-food{
+    height: 35vh ;
+    width: 20vw;
+    border-radius: 5px;
+}
+.trending-item:hover{
+    color: rgb(0, 225, 255);
+}
+.trending-item{
+    color: black ;
+}
+.layer1{
+    display:none
+}
+
+
+#nav-bar{
+    height: 9vh; 
+    background-color:green;
+}
+.feautured-item-text-container{
+    font-size: 4vh;
+    text-align: left;
+    padding-left: 10vw;
+}
+.feautured-item-text{
+    background: yellow;
+    font-weight: 790;
+    text-decoration: none;
+}
+.trending-img{
+    width:100%;
+  height:auto;
+    border-radius: 2%;
+}
+.try-this-text-container{
+    font-size: 3vh;
+    padding-top:30vh;
+    text-align: left;
+    padding-left: 10vw;
+    display:none;
+}
+#try-this-text{
+    background: yellow;
+    font-weight: 600;
+}
+.hover-trend h2{
+    
+    font-size: 17px;font-weight: 900;
+}
+.nav-menu{
+    width: 104vw;
+    background-color: green !important;
+}
+.collapse-butt{
+    float:right;
+}
+.navi-ul{
+    float:right;
+}
+.navi-item{
+    float: right;
+}
+.feautured{
+    top: 70vh;
+    text-decoration: none !important;
+}
+.trending{
+    padding-left:5vw;
+    padding-right:5vw;
+}
+.trending-title{
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+.trending-break{
+    padding-left:5vw;
+    padding-right:5vw;
+}
+@media (min-width: 576px) { 
+    .feautured-item-text-container{
+        font-size: 8vh;
+        text-align: left;
+        padding-left: 5vw;
+    }
+    
+    .hover img {
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width:40%;
+      height:auto;
+      padding-right: 2vw;
+    }
+    .try-this-text-container{
+        font-size: 3vh;
+        padding-top:0vh;
+        text-align: left;
+        padding-left: 5vw;
+        display:block;
+    }
+    #logo{
+    
+    
+        height: 16vh;
+        margin:auto;
+        transition-duration: 0.5s;
+        
+        
+    }
+    .hover-trend img {
+        border-radius: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 60%;
+        
+        height: auto;
+        right:0;
+        
+        
+    }
+    .trending{
+        padding-left:5vw;
+        padding-right:0vw;
+        margin: auto;
+    }
+    .hover-trend h2{
+        
+        font-size: 15px;font-weight: 900;
+    }
+    .trending-break{
+        padding-left:5vw;
+        padding-right:0vw;
+    }
+}
+@media (min-width: 768px) { 
+    .hover img {
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width:90%;
+      height:auto;
+      padding-right: 2vw;
+    }
+    .feautured-item-text-container{
+        font-size: 4vh;
+        text-align: left;
+        padding-left: 5vw;
+    }
+    .try-this-text-container{
+        font-size: 2vh;
+        padding-top:5vh;
+        text-align: left;
+        padding-left: 5vw;
+        display:block;
+    }
+    .hover-trend img {
+        border-radius: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 100%;
+        
+        height: auto;
+        
+        
+        
+    }
+    .trending-break{
+        padding-left:5vw;
+        padding-right:0vw;
+    }
+    #logo{
+    
+    
+        height: 10vh;
+        margin:auto;
+        transition-duration: 0.5s;
+        
+        
+    }
+    
+}
+@media (min-width: 769px) { 
+    .hover img {
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width:90%;
+      height:auto;
+      padding-right: 2vw;
+    }
+    .feautured-item-text-container{
+        font-size: 10vh;
+        text-align: left;
+        padding-left: 10vw;
+    }
+    .try-this-text-container{
+        font-size: 5vh;
+        padding-top:14vh;
+        text-align: left;
+        padding-left: 10vw;
+        display:block;
+    }
+    .hover-trend img {
+        border-radius: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 100%;
+        
+        height: auto;
+        
+        
+        
+    }
+    .trending-break{
+        padding-left:5vw;
+        padding-right:0vw;
+    }
+    
+}
+@media (min-width: 992px) { 
+    .feautured-item-text-container{
+        font-size: 4vh;
+        text-align: left;
+        padding-left: 10vw;
+    }
+    .try-this-text-container{
+        font-size: 3vh;
+        padding-top:14vh;
+        text-align: left;
+        padding-left: 10vw;
+        display:block;
+    }
+    .hover-trend h2{
+        
+        font-size: 20px;font-weight: 900;
+    }
+}
+@media (min-width: 1200px) { 
+    .feautured-item-text-container{
+        font-size: 7vh;
+        text-align: left;
+        padding-left: 10vw;
+    }
+    .try-this-text-container{
+        font-size: 5vh;
+        padding-top:14vh;
+        text-align: left;
+        padding-left: 10vw;
+        display:block;
+    }
+    .trending-title{
+        font-size: 30px;
+        font-weight: 800;
+        color: black;
+    }
+    .hover-trend h2{
+        
+        font-size: 25px;font-weight: 900;
+    }
+}
+@media (min-width: 1280px) { 
+    .try-this-text-container{
+        font-size: 3vh;
+        padding-top:14vh;
+        text-align: left;
+        padding-left: 10vw;
+        display:block;
+    }
+    .hover img {
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width:70%;
+      height:auto;
+      padding-right: 2vw;
+    }
+    .trending-title{
+        font-size: 20px;
+        font-weight: 800;
+        color: black;
+    }
+    .hover-trend img {
+        border-radius: 5px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 80%;
+        
+        height: auto;
+        
+        
+        
+    }
+    .hover-trend h2{
+        
+        font-size: 15px;font-weight: 900;
+    }
+}
+
+
+

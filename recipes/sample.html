@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="recipe-style.css" media="screen"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <div class="row" id="nav">
+                <div class="col-md-12"  >
+
+                    <nav class="navbar  navbar-expand-lg navbar-default navbar-light bg-light nav-menu">
+                        <a class="navbar-header" href="../index.html"><img id="logo"src="logo.png" alt="logo.png"></a>
+    
+                        <button class="navbar-toggler collapse-butt" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                          
+                          
+                          <ul  class="navbar-nav mr-auto mt-2 mt-lg-0 navi-ul">
+                            <li class="nav-item navi-item" >
+                              <a class="nav-link" href="#" id="about-nav">About </a>
+                            </li>
+                            <li class="nav-item navi-item" >
+                                <a class="nav-link" href="#" id="blog-nav">Blog</a>
+                              </li>
+                            <li class="nav-item navi-item" >
+                                <a class="nav-link" href="#">Contact Us</a>
+                              </li>
+                          </ul>
+                        </div>
+                      </nav>
+                      
+                </div>
+            </div>
+        <div class="row" >
+            <!--Enter recipe title-->
+            <div id="recipe-title" class="col-md-12" >Yam Porridge</div>
+        </div>
+        <div class="row" id="author-container">
+            <!--Enter author. delete if none-->
+            <div class="col-md-12" id="author-name">Author</div>
+            <!--Enter status. delete if none-->
+            <div class="col-md-12" id="author-status">Status</div>
+        </div>
+        
+        <div class="row" id="description-container">
+            <!--recipe image-->
+            <div class="col-md-7 col-xs-12" ><img src="..\images/recipeImage.jpg" id="recipe-image"alt="recipeImage.jpg" class="img-responsive"> </div>
+            <!--Start of description. delete if no description. -->
+            <div class="col-md-5 col-xs-12"><p id="description-text">Description of dish</p>
+            <!--End of description-->
+        </div>
+        
+        <div class="row" id="recipe-container">
+            
+            <div class="col-md-3" > 
+                <!--Start of ingredients section COPY AND PASTE THIS TO ADD A NEW SECTION-->
+                <h1 id="ingredients-title">Ingredients</h1>
+                <ul class="recipe-ul">
+                    <li class="recipe-li">Ingredient1</li>
+                    <li class="recipe-li">Ingredient2</li>
+                    <li class="recipe-li">Ingredient3</li>
+                    <li class="recipe-li">Ingredient4</li>
+                    <li class="recipe-li">Ingredient5</li>
+                    <li class="recipe-li">Ingredient6</li>
+                    <li class="recipe-li">Ingredient7</li>
+                    <li class="recipe-li">Ingredient8</li>
+                    
+                </ul>
+                <!--End of ingredients section-->
+            </div>
+            <!--Start of preparation section-->
+            <div class="col-md-4" > 
+                <h1 id="preparation-title">Preparation</h1>
+                <ol class="recipe-ol">
+                    <!--Recipe Prep(Depending on the recipe) add more or delete whole section if needed-->
+                    <li class="recipe-li">first prep</li>
+                    <br>
+                    <li class="recipe-li">second prep</li>
+                    <br>
+                    <li class="recipe-li">third prep</li>
+                    
+                </ol>
+            </div>
+            <!--End of preparation section-->
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sd-12 col-xs-12" >
+                <div style="margin:auto">
+                <!--start of video. delete if no video-->
+                <iframe  id="recipe-video"src="videolink" frameborder="0" allow="accelerometer; autoplay=true; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <!--end of video-->
+            </div>
+            </div>
+        </div>
+        <div class="row" id="related-container">
+            <div class="col-md-12" > 
+                <h1 id="related-title">Related</h1>
+            </div>
+        </div>
+        <div class="row" id="related-items-container">
+            <!--start of 1st related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item1">
+                        <figure class="related-trend">
+                            <!--Enter the 1st related item image-->
+                            <img class="related-food img-responsive" id="related-item-img1" src="..\images/related-example1.jpg" alt="related-example1.jpg">
+                            <!--Enter the 1st related item-->
+                            <h2 class="related-item-title"id="related-item-title1">Related Item1</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 1st related item-->
+            <!--start of 2nd related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item2">
+                        <figure class="related-trend">
+                            <!--Enter the 2nd related item image-->
+                            <img class="related-food img-responsive" id="related-item-img2" src="..\images/related-example2.jpg" alt="related-example2.jpg">
+                            <!--Enter the 2nd related item-->
+                            <h2 class="related-item-title"id="related-item-title2">Related Item2</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 2nd related item-->
+            <!--start of 3rd related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item3">
+                        <figure class="related-trend">
+                            <!--Enter the 3rd related item image-->
+                            <img class="related-food img-responsive" id="related-item-img3" src="..\images/related-example3.jpg" alt="related-example3.jpg">
+                            <!--Enter the 3rd related item-->
+                            <h2 class="related-item-title"id="related-item-title3">Related Item3</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 3rd related item-->
+            <!--start of 4th related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item4">
+                        <figure class="related-trend">
+                            <!--Enter the 4th related item image-->
+                            <img class="related-food img-responsive" id="related-item-img4" src="..\images/related-example4.jpg" alt="related-example4.jpg">
+                            <!--Enter the 4th related item-->
+                            <h2 class="related-item-title"id="related-item-title4">Related Item4</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 4th related item-->
+            <!--start of 5th related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item5">
+                        <figure class="related-trend">
+                            <!--Enter the 5th related item image-->
+                            <img class="related-food img-responsive" id="related-item-img5" src="..\images/related-example5.jpg" alt="related-example5.jpg">
+                            <!--Enter the 5th related item-->
+                            <h2 class="related-item-title"id="related-item-title5">Related Item5</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 5th related item-->
+            <!--start of 6th related item-->
+            <div class="col-md-2 col-sd-6 col-xs-6" > 
+                <div class="zoomin frame">
+                    <a href="" class="related-item" id="related-item6">
+                        <figure class="related-trend">
+                            <!--Enter the 6th related item image-->
+                            <img class="related-food img-responsive" id="related-item-img6" src="..\images/related-example6.jpg" alt="related-example6.jpg">
+                            <!--Enter the 6th related item-->
+                            <h2 class="related-item-title"id="related-item-title6">Related Item6</h2>
+
+                        </figure>
+
+                    </a>
+                </div>
+            </div>
+            <!--end of 6th related item-->
+        </div>
+    </div>
+    </body>
+</html>
